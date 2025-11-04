@@ -1,5 +1,7 @@
 # TASK CLI WITH GO
 A simple and efficient task manager cli with Go programming language.
+This idea was gotten from the delevoper [roadmap](https://roadmap.sh/). Click [here](https://roadmap.sh/projects/task-tracker) to view project
+
 
 ---
 
