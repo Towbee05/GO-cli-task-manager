@@ -15,7 +15,7 @@ var createTaskCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		task := args[0]
 		description := ""
-		if len(args) >= 1 {
+		if len(args) > 1 {
 			description = args[1]
 		}
 		fmt.Println(AddTask(task, description))
